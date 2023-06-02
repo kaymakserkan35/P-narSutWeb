@@ -1,0 +1,31 @@
+﻿
+@media screen and (max-width: 768px) {
+    * {
+        position: static;
+    }
+
+    body {
+        background-color: aliceblue;
+    }
+
+    #navbar li a {
+        color: rebeccapurple;
+        position: static;
+    }
+
+    #carousel-ID {
+        position: static;
+    }
+
+    #navbar {
+        position: static;
+    }
+
+    #ürünlerimiz {
+        position: static;
+    }
+
+    /*  //$("#carousel-ID").removeClass("position-relative");
+    //$("#navbar").removeClass("position-absolute");
+    //$("#navbar-links").addClass("align-items-center");*/
+}

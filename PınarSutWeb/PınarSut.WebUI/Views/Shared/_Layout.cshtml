@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PınarSut.WebUI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Site.css" />
+    <link href="~/css/Tablet-768.css" media="(max-width:768px)" rel="stylesheet" />
+    <link href="~/css/Mobile-500.css" media="(max-width:500px)" rel="stylesheet" />
+</head>
+<body id="body">
+
+
+
+    <header>
+        <partial name="_navbar" />
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    <footer>
+        <partial name="_footer" />
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/Shared/Shared.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PınarSut.Service/1.0.0": {
+        "dependencies": {
+          "PınarSut.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "PınarSut.Service.dll": {}
+        }
+      },
+      "PınarSut.DataAccess/1.0.0": {
+        "runtime": {
+          "PınarSut.DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PınarSut.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PınarSut.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

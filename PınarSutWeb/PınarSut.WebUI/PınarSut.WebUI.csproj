@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\İmages\carouselİmages\**" />
+    <Compile Remove="wwwroot\İmages\pinardanhaberler-carousel\**" />
+    <Compile Remove="wwwroot\İmages\urunlerimiz\**" />
+    <Content Remove="wwwroot\İmages\carouselİmages\**" />
+    <Content Remove="wwwroot\İmages\pinardanhaberler-carousel\**" />
+    <Content Remove="wwwroot\İmages\urunlerimiz\**" />
+    <EmbeddedResource Remove="wwwroot\İmages\carouselİmages\**" />
+    <EmbeddedResource Remove="wwwroot\İmages\pinardanhaberler-carousel\**" />
+    <EmbeddedResource Remove="wwwroot\İmages\urunlerimiz\**" />
+    <None Remove="wwwroot\İmages\carouselİmages\**" />
+    <None Remove="wwwroot\İmages\pinardanhaberler-carousel\**" />
+    <None Remove="wwwroot\İmages\urunlerimiz\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.3.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PınarSut.Service\PınarSut.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\İmages\Home\caroulsel-innerlinks\sağlık-pınarım\" />
+  </ItemGroup>
+
+</Project>

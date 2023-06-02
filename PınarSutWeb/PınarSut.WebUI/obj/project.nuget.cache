@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AaXwIE0vmNOdmBggaDXcMci4tzJtczvkHuBKDOnqGJaYpWANInIDu8N8nbsua95oWMggOSocLXTZRo99zt3vrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\projects\\P-narSutWeb\\PınarSutWeb\\PınarSut.WebUI\\PınarSut.WebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.typescript.msbuild\\4.3.2\\microsoft.typescript.msbuild.4.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

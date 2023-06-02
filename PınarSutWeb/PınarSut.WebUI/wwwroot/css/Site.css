@@ -1,0 +1,56 @@
+﻿
+#socialmediaIcon {
+    height: 2em;
+}
+#navbar{position:relative;}
+#navbar {
+    z-index: 1;
+}
+
+#tooglerİcon {
+    height: 2em;
+    z-index: 2;
+}
+
+#sosyalmedya {
+    /*    background-color:fuchsia;*/
+    background-image: url("~/wwwroot/İmages/Home/carouselİmages/homelezzetpinarim.jpg");
+    background-position: center;
+}
+
+#guzelyasa {
+    width: 150px;
+}
+
+#ürünlerimiz {
+    position: absolute;
+    bottom: 0px;
+}
+
+    #ürünlerimiz image {
+        border: 20px,solid,red;
+    }
+
+div > #ürünlerimiz-badge {
+    z-index: 0;
+    top: 2em;
+    right: 3em;
+}
+
+a > #sorumluluğumuz-badge {
+    z-index: 0;
+    bottom: 1em;
+}
+
+#cocukresim {
+    width: 150px;
+}
+
+#sürdürülebilirlik-inner {
+    background-color: #dd0027;
+}
+
+.col-sm .m-3 {
+    height: 1em;
+    min-height: 300px;
+}
